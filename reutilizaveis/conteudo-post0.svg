@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-label="Ilustração de conteúdo de post">
+	<defs>
+		<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0%" stop-color="#1f2937"/>
+			<stop offset="100%" stop-color="#111827"/>
+		</linearGradient>
+		<linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0%" stop-color="#ffffff"/>
+			<stop offset="100%" stop-color="#f3f4f6"/>
+		</linearGradient>
+	</defs>
+
+	<rect width="1080" height="1080" fill="url(#bg)"/>
+
+	<g transform="translate(180 170)">
+		<rect x="0" y="0" width="720" height="740" rx="36" fill="url(#card)"/>
+		<rect x="48" y="52" width="624" height="320" rx="24" fill="#e5e7eb"/>
+		<circle cx="120" cy="120" r="36" fill="#9ca3af"/>
+		<rect x="180" y="98" width="230" height="22" rx="11" fill="#9ca3af"/>
+
+		<rect x="48" y="420" width="560" height="24" rx="12" fill="#d1d5db"/>
+		<rect x="48" y="462" width="620" height="24" rx="12" fill="#d1d5db"/>
+		<rect x="48" y="504" width="540" height="24" rx="12" fill="#d1d5db"/>
+
+		<rect x="48" y="580" width="210" height="64" rx="18" fill="#2563eb"/>
+		<text x="153" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">POST</text>
+	</g>
+</svg>
