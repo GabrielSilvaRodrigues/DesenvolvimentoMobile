@@ -11,6 +11,16 @@ Este projeto usa Expo com JavaScript, `FlatList` para o feed principal e os arqu
 2. Inicie o app com `npm run start`.
 3. Se quiser abrir direto no celular ou emulador, use `npm run android` ou `npm run ios`.
 
+## Acesso fora da rede local
+
+Use `npm run start:tunnel` para abrir o Expo com túnel, o que facilita acessar o app em outra rede.
+
+Se você quiser uma build instalada no aparelho, use EAS:
+
+1. Crie uma build de desenvolvimento com `npm run eas:build:dev`.
+2. Instale o app gerado no celular.
+3. Inicie o Metro com `npm run start:tunnel` para conectar o development client.
+
 ## Estrutura
 
 - `App.js`: tela principal com o `FlatList`.
