@@ -1,0 +1,659 @@
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  opacity: 0.99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 813px;
+  position: relative;
+  overflow-y: auto;
+  aspect-ratio: 393/813;
+}
+.navbar {
+  background: #9c2222;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.menu-button {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+.logo {
+  flex-shrink: 0;
+  width: 180.23px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+.notification-button {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+.conteudo-logado {
+  background: #ffffff;
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  width: 394.85px;
+  position: relative;
+  overflow-y: auto;
+  aspect-ratio: 394.85/675;
+}
+.post {
+  background: #ffffff;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: #9c2222;
+  border-width: 1px;
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 705.52px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 364.85/705.52;
+}
+.dados-post {
+  background: #ffffff;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 86.81px;
+  position: relative;
+  aspect-ratio: 364.85/86.81;
+}
+.perfil {
+  flex-shrink: 0;
+  width: 85.18px;
+  height: 85.18px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.contexto-post {
+  flex-shrink: 0;
+  width: 178px;
+  height: 54px;
+  position: static;
+}
+.dados-post2 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 48.79%;
+  height: 62.21%;
+  position: absolute;
+  right: 20.7%;
+  left: 30.51%;
+  bottom: 18.9%;
+  top: 18.9%;
+}
+.sailor-moon {
+  color: #9c2222;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._2-semanas {
+  color: #b7b7b7;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+}
+.kebabmenu {
+  flex-shrink: 0;
+  width: 49.36px;
+  height: 49.36px;
+  position: relative;
+  overflow: visible;
+}
+.contexto-meeting {
+  border-radius: 35px 35px 0px 0px;
+  border-style: solid;
+  border-color: #9c2222;
+  border-width: 1px 1px 0px 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.dados-meeting {
+  background: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 358px;
+  height: 130px;
+  position: relative;
+}
+.campo-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 311.4px;
+  height: 107px;
+  position: relative;
+}
+.text-post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 87px;
+  position: relative;
+  aspect-ratio: 311.4/87;
+}
+.um-representante-do-setor-de-transportes-afirmou-que-o-clich-do-caminh-o-kun-que-envia-protagonistas-para-outro-mundo-nos-animes-isekai-pode-estar-criando-uma-imagem-negativa-desses-ve-culos {
+  color: #2f2f2f;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ler-mais-button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.ler-mais {
+  color: #9c2222;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: relative;
+  flex: 1;
+  width: 66px;
+}
+.contexto-meeting2 {
+  background: #ffffff;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: #9c2222;
+  border-width: 1px;
+  padding: 11px 0px 11px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.main-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.main-post {
+  flex-shrink: 0;
+  width: 343.91px;
+  height: 343px;
+  position: static;
+}
+.ver-comentarios {
+  color: #d9d9d9;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 23px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - 171.96px);
+  top: calc(50% - -124.45px);
+  width: 181px;
+}
+.conteudo-post {
+  width: 343.82px;
+  height: 316px;
+  position: absolute;
+  left: 3.58px;
+  top: 0px;
+  overflow: visible;
+}
+.acoes {
+  flex-shrink: 0;
+  width: 350.89px;
+  height: 29.1px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 350.89/29.1;
+}
+.meetings {
+  flex-shrink: 0;
+  width: 359px;
+  height: 701px;
+  position: relative;
+}
+.post2 {
+  position: absolute;
+  inset: 0;
+}
+.backgrond-post {
+  background: #fdfdfd;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: #9c2222;
+  border-width: 1px;
+  width: 99.44%;
+  height: 99.81%;
+  position: absolute;
+  right: 0%;
+  left: 0.56%;
+  bottom: 0.19%;
+  top: 0%;
+}
+.contexto-post2 {
+  width: 218.63px;
+  height: 62.2px;
+  position: static;
+}
+.dados-post3 {
+  width: 218.63px;
+  height: 62.2px;
+  position: static;
+}
+.sailor-moon2 {
+  color: #9c2222;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: absolute;
+  right: 6.56%;
+  left: 32.54%;
+  width: 60.9%;
+  bottom: 92%;
+  top: 2.53%;
+  height: 5.46%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._2-semanas2 {
+  color: #b7b7b7;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: absolute;
+  right: 32.48%;
+  left: 32.54%;
+  width: 34.98%;
+  top: 62.77px;
+  height: 17.18px;
+}
+.contexto-meeting3 {
+  background: #ffffff;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: #9c2222;
+  border-width: 1px;
+  padding: 11px 0px 11px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 358px;
+  height: 585px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 1px;
+}
+.titulo-meeting {
+  flex-shrink: 0;
+  width: 301.74px;
+  height: 49px;
+  position: static;
+  aspect-ratio: 301.74/49;
+}
+.call-of-duty-punch-ball {
+  color: #9c2222;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.17px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 11px;
+  width: 301.74px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-conteudo2 {
+  flex-shrink: 0;
+  width: 358px;
+  height: 433px;
+  position: static;
+}
+.main-post2 {
+  width: 358px;
+  height: 433px;
+  position: static;
+}
+.backgrond-post2 {
+  background: #fdfdfd;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: #9c2222;
+  border-width: 1px;
+  width: 358px;
+  height: 433px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 218.5px);
+}
+.ver-comentarios2 {
+  color: #d9d9d9;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+  font-size: 23px;
+  letter-spacing: -0.17px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - 172px);
+  top: calc(50% - -118.5px);
+  width: 181px;
+}
+.conteudo-post2 {
+  width: 343.82px;
+  height: 316px;
+  position: absolute;
+  left: 7.09px;
+  top: 84px;
+  overflow: visible;
+}
+.acoes2 {
+  width: 350.89px;
+  height: 29.1px;
+  position: absolute;
+  left: 4px;
+  top: 460px;
+  overflow: visible;
+  aspect-ratio: 350.89/29.1;
+}
+.acoes-meeting {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  aspect-ratio: 339.5/53;
+}
+.detalhes-button {
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 164.75px;
+  position: static;
+}
+.forma-detalhes {
+  background: #fdfdfd;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #9c2222;
+  border-width: 2px;
+  width: 164.75px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.detalhes {
+  color: #9c2222;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.17px;
+  font-weight: 500;
+  position: absolute;
+  left: 18.91px;
+  top: 12.72px;
+  width: 126.94px;
+  height: 27.56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.participar-button {
+  flex-shrink: 0;
+  width: 164.75px;
+  height: 45.9px;
+  position: static;
+}
+.forma-participar {
+  background: #9c2222;
+  border-radius: 50px;
+  width: 164.75px;
+  height: 45.9px;
+  position: absolute;
+  left: 174.75px;
+  top: 3.55px;
+}
+.participar {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.17px;
+  font-weight: 500;
+  position: absolute;
+  left: 187.35px;
+  top: 14.56px;
+  width: 140.44px;
+  height: 23.87px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kebabmenu2 {
+  width: 13.71%;
+  height: 49.23px;
+  position: absolute;
+  right: 4.9%;
+  left: 81.39%;
+  top: 28px;
+  overflow: visible;
+}
+.perfil2 {
+  width: 23.66%;
+  height: 11.35%;
+  position: absolute;
+  right: 72.52%;
+  left: 3.82%;
+  bottom: 86.06%;
+  top: 2.59%;
+  overflow: visible;
+  aspect-ratio: 84.94/79.56;
+}
+.perfil3 {
+  flex-shrink: 0;
+  width: 85.18px;
+  height: 85.18px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.kebabmenu3 {
+  flex-shrink: 0;
+  width: 49.36px;
+  height: 49.36px;
+  position: relative;
+  overflow: visible;
+}
+.conteudo-post3 {
+  width: 343.82px;
+  height: 316px;
+  position: absolute;
+  left: 3.58px;
+  top: 0px;
+  overflow: visible;
+}
+.acoes3 {
+  flex-shrink: 0;
+  width: 350.89px;
+  height: 29.1px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 350.89/29.1;
+}
+.menu-inferior {
+  background: #9c2222;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.home-button {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  aspect-ratio: 1;
+}
+.selecionado {
+  background: #d9d9d9;
+  border-radius: 5px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  aspect-ratio: 1;
+}
+.home-button2 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.search-button {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+.create-button {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+.meetings-button {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+.user-button {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}

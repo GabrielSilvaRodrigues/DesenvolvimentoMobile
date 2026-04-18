@@ -1,0 +1,36 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --light-title-color: rgba(0, 13, 51, 0.4);
+  --light-input-color: #000000;
+  --light-error-color: #ff4b4b;
+  --light-accent-color: #0ec46c;
+  --light-accent-hover-color: rgba(133, 63, 249, 0.2);
+  --light-light-color: rgba(0, 32, 128, 0.12);
+  --light-border-color: rgba(0, 32, 128, 0.2);
+
+  /* Fonts */
+  --light-title-font-family: InstrumentSans-Regular, sans-serif;
+  --light-title-font-size: 20px;
+  --light-title-line-height: normal;
+  --light-title-font-weight: 400;
+  --light-title-font-style: normal;
+  --light-input-font-family: InstrumentSans-Regular, sans-serif;
+  --light-input-font-size: 16px;
+  --light-input-line-height: normal;
+  --light-input-font-weight: 400;
+  --light-input-font-style: normal;
+  --light-button-font-family: InstrumentSans-SemiBold, sans-serif;
+  --light-button-font-size: 14px;
+  --light-button-line-height: normal;
+  --light-button-font-weight: 600;
+  --light-button-font-style: normal;
+  --light-error-font-family: InstrumentSans-Regular, sans-serif;
+  --light-error-font-size: 12px;
+  --light-error-line-height: normal;
+  --light-error-font-weight: 400;
+  --light-error-font-style: normal;
+
+  /* Effects */
+}
+/* Figma Color Variables of your File */
