@@ -12,34 +12,6 @@ import { ProfileScreen } from './screens/ProfileScreen';
 import { appStyles } from './styles/appStyles';
 import { colors } from './styles/colors';
 
-const screenConfig = {
-  home: {
-    label: 'Feed',
-    title: 'Meets Hub',
-    description: 'Descubra publicações e novidades da sua comunidade em tempo real.',
-  },
-  search: {
-    label: 'Explorar',
-    title: 'Buscar Grupos',
-    description: 'Encontre comunidades, eventos e pessoas com interesses parecidos.',
-  },
-  create: {
-    label: 'Criar',
-    title: 'Novo Encontro',
-    description: 'Monte eventos e salas ao vivo com poucos toques.',
-  },
-  chat: {
-    label: 'Mensagens',
-    title: 'Conversas',
-    description: 'Continue o papo com equipes, mentores e participantes.',
-  },
-  profile: {
-    label: 'Perfil',
-    title: 'Sua Jornada',
-    description: 'Acompanhe conquistas, conexões e evolução na comunidade.',
-  },
-};
-
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
 
@@ -59,7 +31,6 @@ export default function App() {
     }
   }, [activeTab]);
 
-  const headerInfo = screenConfig[activeTab] || screenConfig.home;
 
   return (
     <SafeAreaProvider>
@@ -67,13 +38,9 @@ export default function App() {
         <StatusBar barStyle="light-content" backgroundColor={colors.primary} />
         <ExpoStatusBar style="light" />
 
-        <ScreenHeader
-          label={headerInfo.label}
-          title={headerInfo.title}
-          description={headerInfo.description}
-        />
+        <ScreenHeader/>
 
-        <ActiveScreen />
+        <ActiveScreen/>
 
         <BottomNav activeTab={activeTab} onSelectTab={setActiveTab} />
       </View>
